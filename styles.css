@@ -1,13 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
-    padding-right: 80px;
+    justify-content: space-between;
+    margin: 0;
 }
 
 img {
     height: 200px;
-    width: 700px;
+    width: 300px;
+    align-self: center;
+    flex-shrink: 0;
 }
 
 ul {
@@ -27,15 +29,24 @@ button {
 }
 
 button.sign-up {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882f6;
+    border: 1px solid #3882f6;
     color: white;
 }
+
+/* .content {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    align-items: center;
+    background-color: #1F2937;
 }
 
 .left,
@@ -49,6 +60,8 @@ button.sign-up {
     justify-content: space-between;
     align-items: center;
     gap: 16px;
+    background-color: #1F2937;
+    margin: auto;
 }
 
 .modal-container .header {
@@ -64,7 +77,7 @@ button.sign-up {
     text-align: center;
 }
 
-.content-container .content {
+.content-container .content-imgs {
     display: flex;
     gap: 52px;
     text-align: center;
@@ -72,7 +85,7 @@ button.sign-up {
 }
 
 .info img {
-    border: 5px solid blue;
+    border: 5px solid #3882f6;
     border-radius: 15px;
     width: 100px;
     height: 100px;
@@ -81,4 +94,45 @@ button.sign-up {
 .info {
     width: 110px;
     text-align: start;
+}
+
+.content-quote {
+    padding: 100px;;
+}
+
+.quote {
+    font-size: 30px;
+}
+
+.quoter {
+    text-align: end;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.modal-2 {
+    padding: 16px;
+    border-radius: 15px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.modal-2 .sign-up {
+    background-color: #3882f6;
+    border-color: white;
+}
+
+.modal-2 .header {
+    background-color: #3882f6;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 0;
 }
