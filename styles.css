@@ -51,7 +51,7 @@ button.sign-up {
     gap: 16px;
 }
 
-.container-1 .header {
+.modal-container .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,3 +60,19 @@ button.sign-up {
     margin-bottom: 8px;
 }
 
+.content-container {
+    text-align: center;
+}
+
+.content-container .content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.content img {
+    width: 100px;
+    height: 100px;
+
+}
