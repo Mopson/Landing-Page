@@ -43,7 +43,6 @@ button.sign-up {
     color: white;
     background-color: #1F2937;
     gap: 30px;
-    margin: auto;
 }
 
 .header {
@@ -156,6 +155,10 @@ button.sign-up {
     font-size: 28px;
     font-weight: 800;
     margin-bottom: 0;
+}
+
+.modal, .content-action {
+    margin: auto;
 }
 
 .footer {
