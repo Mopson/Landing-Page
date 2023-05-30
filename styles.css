@@ -66,13 +66,19 @@ button.sign-up {
 
 .content-container .content {
     display: flex;
-    justify-content: center;
     gap: 52px;
     text-align: center;
+    justify-content: center;
 }
 
-.content img {
+.info img {
+    border: 5px solid blue;
+    border-radius: 15px;
     width: 100px;
     height: 100px;
+}
 
+.info {
+    width: 110px;
+    text-align: start;
 }
